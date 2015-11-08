@@ -1,0 +1,3 @@
+9. 	1. 101933 (grep ">" -o Homo_sapiens.GRch38.cds.all.fa | wc -l)
+	2. 2066758 lines (wc -l Homo_sapiens.GRch38.cds.all.fa)
+	3. Yes, it's present 2954 times (grep "AGATCGG" -o Homo_sapiens.GRch38.cds.all.fa | wc -l)
