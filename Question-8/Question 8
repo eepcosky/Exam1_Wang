@@ -1,6 +1,6 @@
 8.	1. Yes, there is a group that has the Glanville fitillary genome resources. Their webpage is http://www.helsinki.fi/science/metapop/research/mcgenome2_downloads.html. 
 		Their site with software downloads is: http://www.helsinki.fi/science/metapop/research/mcgenome.html
-	2. They are saying that this can be used to study ecological, genetic, and evolutionary consequences of landscape fragmentation. They have unplaced scaffolds that do not have assignments to chromosomes. *********
-	3. Tools that have been developed are: Lep-AMP software, MIP Scaffolder, LiSs, Coral, HybridSHREC, PANNZER, EPT and SANS. 
+	2. They are saying that this can be used to study ecological, genetic, and evolutionary consequences of landscape fragmentation. They have unplaced scaffolds that do not have assignments to chromosomes and they have an unpublished method called Linkage map Superscaffolder that is used for scaffolding.
+	3. Tools that have been developed are: Lep-AMP software, MIP Scaffolder, Coral, HybridSHREC, PANNZER, EPT and SANS. 
 	4. You can access the sequence information on NCBI for glanville fritillary (Melitaea cinxia)
 	5. To do this in a microarray independent manner, you would need to make a reference genome. A reference genome is an assembly of sequenced DNA from a number of donors. Once a reference genome is assembled you can use sequence other Glanville fritillary butterflies through NGS. Once those sequences are obtained you can use SNP callers such as Samtools/bcftools and GATK. HaplotypeCaller by GATK will perform a local de novo assembly Additionally UnifiedGenotyper by GATK will also call SNps. To verify you can use PCR with primers designed near the SNPs found using Samtools/bcftools or GATK.
